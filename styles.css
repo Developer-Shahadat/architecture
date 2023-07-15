@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+/* This is shared class or style  */
+.btn-primary{
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    background: #FF900E;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
+
+.banner-description{
+    margin-top: 20px;
+    color: #727272;
+    text-align: center;
+    font-weight: 400;
+}
+/* This is Nav-Bar Style */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav ul {
+    display: flex;
+}
+nav  li{
+    list-style: none;
+    margin-right: 30px;
+   
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:  #424242;
+}
+.nav-title{
+    color:  #131313;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 700;
+
+}
+
+/* This is Banner-Section Style */
+.banner-section{
+    margin-top: 80px;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+.banner-content img{
+    margin-top: 30px;
+    width: 100%;
+}
+.banner-title{
+    color:  #131313;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: 700;
+
+}
+
+
+
+
+/* Responsive Small/Mobile Device */
+@media screen and (max-width:576px){
+    
+    header{
+        padding: 20px;
+       
+    }
+    nav{
+        flex-direction: column;
+      
+    }
+    nav ul li{
+        margin-right: 15px;
+        margin-top: 20px;
+      
+    }
+}
+
+
+/* Responsive Tablet/medium Device */
+@media screen and (min-width:576px) and (max-width:960px){
+    header{
+       padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul li{
+        margin-right: 15px;
+        margin-top: 20px;
+    }
+}
