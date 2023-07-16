@@ -125,6 +125,7 @@ text-align: justify;
 }
 
 .experience-pic img {
+    margin-right: 20px;
     width: 600px;
     margin-left: 50px;
 }
@@ -189,6 +190,53 @@ text-align: justify;
     font-size: 2rem;
 }
 
+/* This is Same Facts Styles */
+.same-facts{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.same-facts h3{
+    color:#131313;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.same-facts p{
+    color:#727272;
+    font-weight: 400;
+}
+
+/* This is achievements Section  */
+.achievements{
+    margin-top: 80px;
+}
+.achievements-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-left: 250px;
+}
+.card{
+    border: 1px solid rgba(255, 144, 14, 1);
+    padding: 25px 25px;
+    text-align: center;
+}
+.card img{
+    margin-top: 20px;
+}
+.card h4{
+    margin-top: 20px;
+    color: #424242;
+    font-size: 2.2rem;
+    font-weight: 600;
+
+}
+.card p{
+    margin-top: 20px;
+    color: #424242;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
 
 
 
@@ -215,7 +263,7 @@ text-align: justify;
     header{
         padding: 20px;  
     }
-    nav, .team-features,.team-pic,.team-content,.experience-features,.experience-pic{
+    nav, .team-features,.team-pic,.team-content,.experience-features,.experience-pic,.achievements-box{
         flex-direction: column;
     }
     nav ul li{
@@ -239,6 +287,12 @@ text-align: justify;
     .experience-pic img{
         margin: 0px;
         width: 100%;
+    }
+    .same-facts{
+        margin-left: 10px;
+    }
+    .achievements-box{
+        margin-left: 10px;
     }
     
 }
@@ -268,5 +322,18 @@ text-align: justify;
     .experience-features{
         margin-left: 30px;
         margin-right: 30px;
+    }
+    .experience-pic img {
+        margin-left: 30px;
+        width: 500px;
+    }
+    .same-facts{
+        margin-left: 30px;
+    }
+    .achievements-box{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
