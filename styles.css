@@ -116,6 +116,94 @@ text-align: justify;
     font-size: 2.5rem;
     font-weight: 700;
 }
+/* This is experience features */
+.experience-features{
+    gap: 4rem;
+    margin-top: 4rem;
+    display: flex;
+    margin-left: 300px;
+}
+
+.experience-pic img {
+    width: 600px;
+    margin-left: 50px;
+}
+.content-box h2{
+    border-left: 5px solid rgba(255, 144, 14, 1);
+    padding: 5px ;
+    color: #131313;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+.experience-description{
+    padding: 5px;
+    color: #727272;
+    font-weight: 400;
+}
+.box-1{
+    margin-top: 10px;
+    padding: 10px 10px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px 2px rgba(185, 184, 184, 0.938);
+}
+.box-2{
+    margin-top: 10px;
+    padding: 10px 10px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px 2px rgba(185, 184, 184, 0.938);
+}
+.box-3{
+    margin-top: 10px;
+    padding: 10px 10px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px 2px rgba(185, 184, 184, 0.938);
+}
+
+.box-4{
+    margin-top: 10px;
+    padding: 10px 10px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px 2px rgba(185, 184, 184, 0.938);
+}
+.experience-badge{
+    border-radius: 8px;
+    background: #FF900E;
+    width: 200px;
+    color: #fff;
+    padding: 15px;
+    position: relative;
+    bottom: 70px;
+
+}
+.experience-badge h3{
+    font-size: 2.5rem;
+    margin: 0px;
+    text-align: center;
+}
+.experience-badge p{
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -127,7 +215,7 @@ text-align: justify;
     header{
         padding: 20px;  
     }
-    nav, .team-features,.team-pic,.team-content{
+    nav, .team-features,.team-pic,.team-content,.experience-features,.experience-pic{
         flex-direction: column;
     }
     nav ul li{
@@ -143,6 +231,15 @@ text-align: justify;
     .team-content p{
        margin-right: 20px;
         }
+    .experience-features {
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }   
+    .experience-pic img{
+        margin: 0px;
+        width: 100%;
+    }
     
 }
 
@@ -152,7 +249,7 @@ text-align: justify;
     header{
        padding: 50px;
     }
-    nav,.team-features,.team-pic,.team-content{
+    nav,.team-features,.team-pic,.team-content,.experience-features,.experience-pic{
         flex-direction: column;
     }
     nav ul li{
@@ -167,5 +264,9 @@ text-align: justify;
     }
     .team-content{
         margin-left: 6.25rem;
+    }
+    .experience-features{
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
